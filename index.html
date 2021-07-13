@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/Images/logo.jpg">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The DineWell Restaurant site gives you quick access to order food online">
-    <meta name="author" content="Jerome Tokpa">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/Images/logo.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The DineWell Restaurant site gives you quick access to order food online"
+    />
+    <meta name="author" content="Jerome Tokpa" />
+    <link rel="stylesheet" href="style.css" />
     <title>DineWell Restaurant</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="Images/logo.jpg" alt="logo">
-        <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">Our Menu</a></li>
-            <li><a href="#">Delivery</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <button>Place Order</button>
+      <img src="Images/logo.jpg" alt="logo" />
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Our Menu</a></li>
+        <li><a href="#">Delivery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button>Place Order</button>
     </header>
     <main>
-        <div class="left-main">
-            <h2>The best food... <br>Your best health.</h2>
-            <button>Place Order</button>
-        </div>
-        <img src="Images/food.jpg" alt="food">
+      <div class="left-main">
+        <h2>The best food... <br />Your best health.</h2>
+        <form action="./confirmOrder.html">
+          <button onclick="placeOrder()">Place Order</button>
+        </form>
+      </div>
+      <img src="Images/food.jpg" alt="food" />
     </main>
-</body>
+  </body>
 </html>
-
